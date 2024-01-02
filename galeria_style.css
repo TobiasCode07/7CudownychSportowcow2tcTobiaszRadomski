@@ -1,0 +1,83 @@
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mini {
+    margin: 1vw;
+    cursor: pointer;
+}
+.mini img {
+    width: 15vw;
+    height: 10vw;
+}
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    text-align: center;
+}
+.lightbox-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    background-color: #fff;
+    padding: 0.5vw;
+    border: 0.5vw solid #ccc;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.slide {
+    display: none;
+}
+.slide img {
+    width: 45vw;
+    height: 30vw;
+}
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3vw;
+    cursor: pointer;
+}
+.prev {
+    left: 2vw;
+}
+.next {
+    right: 2vw;
+}
+body{
+    text-align: center;
+    background-image: url("foto/tlo2.png");
+    background-size: 100%;
+    margin-top: 3vw;
+}
+#link{
+    margin-top: 5vw;
+}
+#link a{
+    font-size: 2vw;
+    color: #042f28;
+    font-weight: 800;
+}
+#naglowek{
+    font-size: 5vw;
+    color: #042f28;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px 10px 10px #106953;
+    letter-spacing: 0.5vw;
+    margin-bottom: 3vw;
+}

@@ -1,0 +1,26 @@
+body{
+    background-image: url("foto/tlo.png");
+    background-size: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vw;;
+}
+form{
+    font-size: 2vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40vw;
+    font-weight: bolder;
+}
+.pola, .boxy{
+    width: 8vw;
+    height: 1vw;
+    font-size: 1vw;
+}
+.boxy{
+    height: 2vw;
+}
+a{
+    color: #34423c;
+}

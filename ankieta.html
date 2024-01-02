@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ankieta_style.css">
+    <title>Ankieta</title>
+</head>
+<body>
+    <form method="post" action="ankieta.html">
+        <br>
+        <label>Imie:</label>
+        <input type="text" name="imie" class="pola" size="20" required><br>
+        <label>Nazwisko:</label>
+        <input type="text" name="nazwisko" class="pola" size="20" required><br>
+        <label>Adres e-mail:</label>
+        <input type="e-mail" name="email" class="pola" size="30" required><br>
+        <label>Z którym sportowcem najchętniej chciałbyś/chciałabyś się spotkać:</label>
+        <select name="sportowiec" class="boxy">
+            <option value="leon">Leon Edwards</option>
+            <option value="krzysztof">Krzysztof Wierzbicki</option>
+            <option value="eddie">Eddie Hall</option>
+            <option value="brian">Brian Shaw</option>
+            <option value="kyrie">Kyrie Irving</option>
+            <option value="ronnie">Ronnie Coleman</option>
+            <option value="lebron">LeBron James</option>
+        </select><br>
+    
+        <input type="submit" name="wyslij" class="boxy" value="Wyślij" size="30">
+        &nbsp;&nbsp;
+        <input type="reset" name="zeruj" class="boxy" value="Wyczyść">
+        <br><br>
+
+        <a href="index.html">Powrót do strony głównej</a><br><br>
+    </form>
+</body>
+</html>

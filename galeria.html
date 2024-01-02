@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" type="text/css" href="galeria_style.css">
+</head>
+<body>
+    <div id="naglowek">Galeria</div>
+    <div class="galery">
+        <div class="mini" onclick="openLightbox(); currentSlide(1)">
+            <img src="foto/LeonEdwards.png" alt="leon">
+        </div>
+        <div class="mini" onclick="openLightbox(); currentSlide(2)">
+            <img src="foto/KrzysztofWierzbicki.png" alt="krzysztof">
+        </div>
+        <div class="mini" onclick="openLightbox(); currentSlide(3)">
+            <img src="foto/EddieHall.png" alt="eddie">
+        </div>
+        <div class="mini" onclick="openLightbox(); currentSlide(4)">
+            <img src="foto/BrianShaw.png" alt="brian">
+        </div>
+        <div class="mini" onclick="openLightbox(); currentSlide(4)">
+            <img src="foto/KyrieIrving.png" alt="kyrie">
+        </div>
+        <div class="mini" onclick="openLightbox(); currentSlide(4)">
+            <img src="foto/RonnieColeman.png" alt="ronnie">
+        </div>
+        <div class="mini" onclick="openLightbox(); currentSlide(4)">
+            <img src="foto/LeBronJames.png" alt="lebron">
+        </div>
+    </div>
+    
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <div class="slide">
+                <img src="foto/LeonEdwards.png" alt="leon">
+            </div>
+            <div class="slide">
+                <img src="foto/KrzysztofWierzbicki.png" alt="krzysztof">
+            </div>
+            <div class="slide">
+                <img src="foto/EddieHall.png" alt="eddie">
+            </div>
+            <div class="slide">
+                <img src="foto/BrianShaw.png" alt="brian">
+            </div>
+            <div class="slide">
+                <img src="foto/KyrieIrving.png" alt="kyrie">
+            </div>
+            <div class="slide">
+                <img src="foto/RonnieColeman.png" alt="ronnie">
+            </div>
+            <div class="slide">
+                <img src="foto/LeBronJames.png" alt="lebron">
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <div id="link"><a href="index.html">Powrót do strony głównej</a></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
